@@ -26,7 +26,7 @@ class DGSABot(commands.Bot):
         bot.remove_command('help')
         # Make sure to do this before loading the cogs
         for plugin in PLUGINS.split(','):
-            await bot.load_extension('plugins.' + plugin.strip())
+            await bot.load_extension('plugins.' + plugin.strip().lower())
 
 
 def get_prefix(client, message):

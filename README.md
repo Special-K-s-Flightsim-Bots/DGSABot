@@ -29,12 +29,13 @@ If you run multiple Discord guilds, you can add the bot to all of them, no need 
 ## Plugins
 The bot has two plugins atm, you can choose which plugin you want to activate (see "Running the Bot").
 
-### bans
+### Bans
 This plugin subscribes to the global Discord ban-list and adds all Discord users on this list to your ban list.
 Each reason starts with "DGSA:", so you can easily see, which bans were added by DGSA and why they were banned.</br>
-**Attention!** Whenever a user is removed from the list, they will not be automatically unbanned on your Discord.
+If a user gets globally unbanned, they get unbanned from your Discord, too. This only happens, if you haven't
+banned them manually, so no worries about anybody revoking your purposeful bans - this will not happen.
 
-### donators
+### Donators
 This plugin was built on a user request. People that run more than one Discord have the challenge that if a user decides
 to become a Donator, they usually can only link one discord with the respective platform (e. g. Patreon). If you want
 to give or take a role to/from a user, depending on a role they got in another discord, you can use this plugin.
