@@ -1,5 +1,5 @@
 # Welcome to the DGSA Bot!
-DGSA, the Discord Group of [[DCS World](https://www.digitalcombatsimulator.com)] Server Admins is maintaining a global
+DGSA, the "[DCS](https://www.digitalcombatsimulator.com) Global Server Admins" are maintaining a global
 list of players that cheated, insulted, harassed in such a manner, that we decided to no longer tolerate them on any
 of our servers. As many of us have their own Discord groups, there are two ban lists, one for DCS players and one for 
 Discord users.</br>
@@ -65,3 +65,7 @@ If you want to add the donators plugin, you need to use:
 set PLUGINS=bans, donators
 ```
 The bot will automatically add a Python virtual environment and install the needed python libraries on first launch.
+
+# How to become a member of DGSA
+If you run a larger DCS group / Discord server, contact Special K (<@665658091752259605>) or Sly (<@324225244950953986>)
+to get an invite.
