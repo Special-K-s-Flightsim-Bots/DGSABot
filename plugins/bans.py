@@ -31,7 +31,7 @@ class Bans(commands.Cog):
             for guild in self.bot.guilds:
                 try:
                     guild_bans = [entry async for entry in guild.bans()]
-                    banned_users = [x.user for x in guild_bans if x.reason.startswith('DGSA:')]
+                    banned_users = [x.user for x in guild_bans if x.reason and x.reason.startswith('DGSA:')]
                     # unban users that should not be banned anymore
                     for user in [x for x in banned_users if x not in users_to_ban]:
                         await guild.unban(user, reason='DGSA: ban revoked.')
