@@ -1,4 +1,3 @@
-# noinspection PyPackageRequirements
 import aiohttp
 import discord
 from discord.ext import commands, tasks
