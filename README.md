@@ -8,8 +8,8 @@ Discord users.
 If you want to use the Discord banlist to protect your own group, DGSABot is the way to go.
 
 > [!NOTE]
-> If you are a user of [DCSServerBot](https://github.com/Special-K-s-Flightsim-Bots/DCSServerBot) already all you 
-> need is to activate the "Cloud" plugin. 
+> If you are a user of [DCSServerBot](https://github.com/Special-K-s-Flightsim-Bots/DCSServerBot) already, 
+> all you need is to activate the "Cloud" plugin. 
 > Then you can choose in the configuration which of the lists, DCS-bans and/or Discord-bans you want to use.
 
 ## Installation
@@ -22,7 +22,7 @@ Create a "New Application", add a Bot, select Bot from the left menu, give it a 
 Gateway Intents" have to be enabled on that page.</br>
 
 ### Add the Bot
-To add the bot to your Discord guild, select "OAuth2" from the menu, then "URL Generator", select the "bot" checkbox, 
+To add the bot to your Discord guild, select "OAuth2" from the menu, then "URL Generator", select the "bot" checkbox 
 and then select the following permissions: Manage Roles, Ban Members. Press "Copy" on the generated URL, paste it into 
 the browser of your choice and select the guild the bot has to be added to. Repeat that for all guilds you want to
 manage with the bot.</br>
@@ -46,8 +46,8 @@ Do not worry about anybody revoking your purposeful ban, this will not happen.
 
 ### Donators
 This plugin was built on a user request. People that run more than one Discord have the challenge that if a user decides
-to become a Donator, they usually can only link one discord with the respective platform (e.g. Patreon). If you want
-to give or take a role to/from a user, depending on a role they got in another discord, you can use this plugin.
+to become a Donator, they usually can only link one discord with the respective platform (e.g., Patreon). 
+If you want to give or take a role to/from a user, depending on a role they got in another discord, you can use this plugin.
 
 It can be configured using a simple JSON (has to be in config/donator.json, see sample):
 ```json
